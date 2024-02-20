@@ -1,0 +1,71 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/local_collection_driver.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/collection.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/connection_options.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/doc_fetcher.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/mongo_driver.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/mongo_utils.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/observe_multiplex.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/oplog_observe_driver.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/oplog_tailing.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/oplog_v2_converter.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/polling_observe_driver.js",
+        "/Users/rabbit/.meteor/packages/mongo/1.16.8/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/rabbit/.meteor/packages/reactive-var/1.0.12/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/rabbit/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/Users/rabbit/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/Users/rabbit/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/Users/rabbit/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/Users/rabbit/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/rabbit/.meteor/packages/ecmascript/0.16.8/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/rabbit/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/Users/rabbit/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/rabbit/.meteor/packages/hot-module-replacement/0.5.3/web.browser/hot-api.js",
+        "/Users/rabbit/.meteor/packages/hot-module-replacement/0.5.3/web.browser/client.js",
+        "/Users/rabbit/.meteor/packages/hot-module-replacement/0.5.3/web.browser/server.js"
+      ],
+      "meteor/aldeed:collection2": [
+        "/Users/rabbit/.meteor/packages/aldeed_collection2/4.0.0/web.browser/collection2.js",
+        "/Users/rabbit/.meteor/packages/aldeed_collection2/4.0.0/web.browser/dynamic.js",
+        "/Users/rabbit/.meteor/packages/aldeed_collection2/4.0.0/web.browser/lib.js",
+        "/Users/rabbit/.meteor/packages/aldeed_collection2/4.0.0/web.browser/main.js",
+        "/Users/rabbit/.meteor/packages/aldeed_collection2/4.0.0/web.browser/static.js"
+      ],
+      "meteor/aldeed:collection2-core": [
+        "/Users/rabbit/.meteor/packages/aldeed_collection2-core/2.1.2/web.browser/collection2.js"
+      ],
+      "meteor/sakulstra:aggregate": [
+        "/Users/rabbit/.meteor/packages/sakulstra_aggregate/1.4.4/web.browser/index.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
